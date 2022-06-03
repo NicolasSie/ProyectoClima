@@ -1,5 +1,6 @@
 ## app web clima
-
+# ProyectoClima
+Aplicacion web del clima, realizada con JavaScript y React.js
 
 ### Ejercitación
 
@@ -225,3 +226,4 @@ El filter nos devuelve un arreglo, que puede tener uno o cero elementos. Por lo 
   render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
 />
 ```
+

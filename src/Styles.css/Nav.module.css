@@ -1,0 +1,28 @@
+.logoHenry {
+  
+  background-color: aqua;
+  direction: initial;
+}
+
+.nanvar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background:rgb(49, 49, 49);
+  
+  padding: 10px;
+  color: white;
+  
+}
+
+.henry{
+  width: 50%;
+    display: inline-flex;
+    margin-left: 50px;
+}
+.serch{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  
+}

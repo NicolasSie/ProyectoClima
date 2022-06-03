@@ -1,0 +1,109 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.contenedorCarta{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  
+}
+.contenedCartas{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34, 121, 228);
+  margin: 10px;
+  border-radius: 10px;
+  border: solid gainsboro 1px;
+}
+.btn{
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: deeppink;
+  color: white;
+  place-self: flex-end;
+  margin:4px;
+  border: deeppink;
+  }
+.clima{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  align-items: center;
+
+}
+.contenedorClima{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+li{
+  list-style:none
+}
+ul{
+  list-style:none;
+  padding: 0%;
+}
+.contenedimput{
+  display: flex;
+  justify-content: center;
+}
+.buscar{
+  display: flex;
+gap: 10px;
+background-image: linear-gradient(180deg, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);;
+width: 300px;
+padding: 10px;
+border-radius: 15px;
+}
+
+.impbutton{
+  border-radius: 8px;
+background: rgb(27, 27, 27);
+  color: #18640e;
+}
+.imput{
+  background:#0057e5;
+  color: #cb0060;
+  border-radius:10px ;
+}
+.pagina{
+  background: rgb(14, 14, 14);
+}
+.body{
+  background: rgb(14, 14, 14); 
+}
+
+.Link{
+  text-decoration:none;
+  color: #1f1f59;
+}
